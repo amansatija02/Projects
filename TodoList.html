@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Todo.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-tasks"></i> Todo List</h1>
+            <p>List your Tasks Here</p>
+        </div>
+        
+        <div class="task-input">
+            <input type="text" id="taskInput" placeholder="Enter a new task...">
+            <button id="addTaskBtn"><i class="fas fa-plus"></i> Add Task</button>
+        </div>
+        
+        <div class="controls">
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All Tasks</button>
+                <button class="filter-btn" data-filter="active">Active</button>
+                <button class="filter-btn" data-filter="completed">Completed</button>
+            </div>
+            <div class="delete-all-container">
+                <button class="delete-all-btn" id="deleteAllBtn" disabled>
+                    <i class="fas fa-trash" style = "margin-right: 2px;"></i> Delete All
+                </button>
+            </div>
+        </div>
+        
+        <div class="tasks" id="tasksContainer"> </div>
+        
+        <div class="stats">
+            <span id="totalTasks">Total: 0 tasks</span>
+            <span id="completedTasks">Completed: 0</span>
+        </div>
+    </div> 
+
+    <div class="notifications-container" id="notificationsContainer"> </div>
+
+   <script src="TodoList.js"> </script>
+</body>
+</html>
