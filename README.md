@@ -112,7 +112,7 @@ That’s it.
 
 ---
 
-## Limitations (Be Honest)
+## Limitations 
 
 This is **not** a full-stack app.
 
@@ -126,33 +126,25 @@ This is **not** a full-stack app.
 
 ---
 
-## Improvements You Should Make Next
-
-If you want this to look serious on GitHub or in interviews, do these:
+## Improvements 
 
 1. Replace `prompt()` with a modal
 2. Move inline styles to CSS
 3. Split JS into modules
 4. Add keyboard navigation support
 5. Add search functionality
-6. Migrate to backend (Flask / Node) if learning full stack
+6. Migrate to backend (Flask / Node) 
 7. Add unit tests (even basic ones)
 
 ---
 
 ## Who This Project Is For
 
-* Beginners learning DOM manipulation
-* Students practicing JavaScript logic
-* Anyone learning localStorage usage
+* practicing JavaScript logic
 * Portfolio starter project
 
 ---
 
-## License
 
-Free to use. Modify it. Break it. Improve it.
-
----
 
 
